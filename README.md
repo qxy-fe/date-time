@@ -29,6 +29,12 @@ import { now } from '@qxy/date-time'
 console.log(now()) // => 1684230041493
 ```
 
+## Functions
+
+- [now](./src/now.ts)
+- [formatTime](./src/formatTime.ts)
+- [toTimestamp](./src/toTimestamp.ts)
+
 ## License
 
 [MIT](./LICENSE) License © 2023-PRESENT [ntnyq](https://github.com/ntnyq)
