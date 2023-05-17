@@ -35,6 +35,10 @@ console.log(now()) // => 1684230041493
 - [formatTime](./src/formatTime.ts)
 - [toTimestamp](./src/toTimestamp.ts)
 
+## Features
+
+- 📥 Prefer unix timestamp
+
 ## License
 
 [MIT](./LICENSE) License © 2023-PRESENT [ntnyq](https://github.com/ntnyq)

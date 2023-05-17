@@ -9,5 +9,6 @@ export type NowOptions = UnixOptions
  * @returns timestamp in number
  */
 export function now(options: NowOptions = {}) {
-  return options.isUnix ? dayjs().unix() : dayjs().valueOf()
+  const { isUnix = true } = options
+  return isUnix ? dayjs().unix() : dayjs().valueOf()
 }

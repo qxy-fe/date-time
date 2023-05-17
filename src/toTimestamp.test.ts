@@ -2,8 +2,8 @@ import { describe, expect, it } from 'vitest'
 import dayjs from 'dayjs'
 import { toTimestamp } from './toTimestamp'
 
-const time = '2020/01/01 12:00:00'
-const ts = dayjs(time).valueOf()
+const ts = 1577851200000
+const time = dayjs(ts).format('YYYY/MM/DD hh:mm:ss')
 
 describe('toTimestamp', () => {
   it('should match', () => {
