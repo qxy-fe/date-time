@@ -3,7 +3,7 @@ import { now } from './now'
 
 describe('now', () => {
   it('should match', () => {
-    expect(typeof now()).toBe('number')
-    expect(typeof now({ isUnix: true })).toBe('number')
+    expect(typeof now()).toMatchInlineSnapshot('"number"')
+    expect(typeof now({ isUnix: true })).toMatchInlineSnapshot('"number"')
   })
 })
