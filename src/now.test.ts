@@ -5,5 +5,6 @@ describe('now', () => {
   it('should match', () => {
     expect(typeof now()).toMatchInlineSnapshot('"number"')
     expect(typeof now({ isUnix: true })).toMatchInlineSnapshot('"number"')
+    expect(typeof now({ isUnix: false })).toMatchInlineSnapshot('"number"')
   })
 })
