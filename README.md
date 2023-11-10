@@ -1,9 +1,9 @@
 # qxy-date-time
 
-[![CI](https://github.com/qxy-fe/qxy-date-time/workflows/CI/badge.svg)](https://github.com/qxy-fe/qxy-date-time/actions)
+[![CI](https://github.com/qxy-fe/date-time/workflows/CI/badge.svg)](https://github.com/qxy-fe/date-time/actions)
 [![NPM VERSION](https://img.shields.io/npm/v/@qxy/date-time.svg)](https://www.npmjs.com/package/@qxy/date-time)
-[![Coverage Status](https://coveralls.io/repos/github/qxy-fe/qxy-date-time/badge.svg?branch=main)](https://coveralls.io/github/qxy-fe/qxy-date-time?branch=main)
-[![LICENSE](https://img.shields.io/github/license/qxy-fe/qxy-date-time.svg)](https://github.com/qxy-fe/qxy-date-time/blob/main/LICENSE)
+[![Coverage Status](https://coveralls.io/repos/github/qxy-fe/date-time/badge.svg?branch=main)](https://coveralls.io/github/qxy-fe/date-time?branch=main)
+[![LICENSE](https://img.shields.io/github/license/qxy-fe/date-time.svg)](https://github.com/qxy-fe/date-time/blob/main/LICENSE)
 
 :lock: QXY-FE date time utils for OA projects.
 
@@ -26,7 +26,7 @@ pnpm add @qxy/date-time dayjs
 ```ts
 import { now } from '@qxy/date-time'
 
-console.log(now()) // => 1684230041493
+console.log(now()) // => 1684230041
 ```
 
 ## Functions
