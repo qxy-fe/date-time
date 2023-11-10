@@ -1,11 +1,11 @@
-# qxy-date-time
+# @qxy/date-time
 
 [![CI](https://github.com/qxy-fe/date-time/workflows/CI/badge.svg)](https://github.com/qxy-fe/date-time/actions)
 [![NPM VERSION](https://img.shields.io/npm/v/@qxy/date-time.svg)](https://www.npmjs.com/package/@qxy/date-time)
 [![Coverage Status](https://coveralls.io/repos/github/qxy-fe/date-time/badge.svg?branch=main)](https://coveralls.io/github/qxy-fe/date-time?branch=main)
 [![LICENSE](https://img.shields.io/github/license/qxy-fe/date-time.svg)](https://github.com/qxy-fe/date-time/blob/main/LICENSE)
 
-:lock: QXY-FE date time utils for OA projects.
+:clock: Date time utils for OA projects.
 
 ## Install
 
