@@ -72,7 +72,7 @@
     "@ntnyq/eslint-config": "^1.20.0",
     "@ntnyq/prettier-config": "^1.20.0",
     "@types/node": "^20.10.5",
-    "@vitest/coverage-v8": "^1.0.4",
+    "@vitest/coverage-v8": "^1.1.0",
     "bumpp": "^9.2.1",
     "eslint": "^8.56.0",
     "husky": "^8.0.3",
@@ -82,7 +82,7 @@
     "prettier": "^3.1.1",
     "typescript": "^5.3.3",
     "unbuild": "^2.0.0",
-    "vitest": "^1.0.4"
+    "vitest": "^1.1.0"
   },
   "prettier": "@ntnyq/prettier-config",
   "publishConfig": {
