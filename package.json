@@ -36,14 +36,6 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "typesVersions": {
-    "*": {
-      "*": [
-        "./dist/*",
-        "./dist/index.d.ts"
-      ]
-    }
-  },
   "files": [
     "dist"
   ],
@@ -53,7 +45,7 @@
     "coverage": "vitest --coverage",
     "dev": "unbuild --stub",
     "lint": "eslint .",
-    "prepare": "husky install",
+    "prepare": "husky",
     "prepublishOnly": "pnpm run build",
     "release": "run-s release:check release:version release:publish",
     "release:check": "run-s typecheck lint",
@@ -66,23 +58,23 @@
     "dayjs": "^1.11.7"
   },
   "dependencies": {
-    "dayjs": "^1.11.11"
+    "dayjs": "^1.11.12"
   },
   "devDependencies": {
-    "@ntnyq/eslint-config": "^1.21.2",
+    "@ntnyq/eslint-config": "^2.6.2",
     "@ntnyq/prettier-config": "^1.21.2",
-    "@types/node": "^20.14.10",
-    "@vitest/coverage-v8": "^2.0.2",
+    "@types/node": "^20.14.11",
+    "@vitest/coverage-v8": "^2.0.3",
     "bumpp": "^9.4.1",
-    "eslint": "^8.57.0",
-    "husky": "^9.0.11",
+    "eslint": "^9.7.0",
+    "husky": "^9.1.1",
     "nano-staged": "^0.8.0",
     "npm-run-all2": "^6.2.2",
     "pnpm": "^9.5.0",
     "prettier": "^3.3.3",
     "typescript": "^5.5.3",
-    "unbuild": "^2.0.0",
-    "vitest": "^2.0.2"
+    "unbuild": "^3.0.0-beta.7",
+    "vitest": "^2.0.3"
   },
   "prettier": "@ntnyq/prettier-config",
   "publishConfig": {
